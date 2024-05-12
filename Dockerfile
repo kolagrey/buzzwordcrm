@@ -18,11 +18,11 @@ RUN npm ci --only=production
 # Bundle app source
 COPY . .
 
-ENV PORT=3000
+ENV PORT=6900
 
 # Make this port accessible from outside the container
 # Necessary for your browser to send HTTP requests to your Node app
-EXPOSE 3000
+EXPOSE 6900
 
 # Command to run when the container is ready
 # Separate arguments as separate values in the array
